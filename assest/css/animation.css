@@ -1,0 +1,64 @@
+@keyframes morph{
+  0%,
+  10%{
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+  }
+  30%{
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+  }
+  60%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+  }
+  80%{
+    border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+  }
+}
+
+/* skill section animaction */
+
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 82%;
+  }
+}
+
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes javascript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+@keyframes photoshop{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+
+@keyframes glow{
+  0%{
+    background: var(--bg-color);
+    box-shadow: none;
+  }
+  100%{
+    background: var(--hover-color);
+    box-shadow: var(neon-box-shadow);
+  }
+}
